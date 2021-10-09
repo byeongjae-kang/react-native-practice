@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Modal, StyleSheet, TextInput, View } from "react-native";
 
-const GaolInput = (props) => {
+const GoalInput = (props) => {
   const [enteredGoal, setEnteredGoal] = useState("");
 
   const goalInputHandler = (enteredText) => {
@@ -59,4 +59,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default GaolInput;
+export default GoalInput;
